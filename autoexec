@@ -8,6 +8,11 @@ alias +knife "use weapon_knife;"
 alias -knife "lastinv;"
 bind ralt "+knife;"
 
++cl_teamid_overhead_mode 0
+alias +show "+cl_teamid_overhead_mode; bind / -show;r_cleardecals"
+alias -show "-cl_teamid_overhead_mode; bind / +show;r_cleardecals"
+bind "l" "-show"
+
 ##KEYBOARD
 
 bind h "+moveleft"
@@ -24,13 +29,11 @@ bind y "lastinv"
 bind i "+use"
 bind o "+reload"
 bind g "player_ping"
-bind ' "drop"
 
-#ins scoreboard
-#del show_team_equipment
-#end change_team
-#page_up teamchat
-#page_down chat
+bind INS "+showscores"
+bind END "teammenu"
+bind PGUP "sayteam"
+bind PGDN "say"
 
 ##MOUSE
 
