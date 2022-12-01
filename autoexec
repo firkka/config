@@ -24,12 +24,7 @@ bind y "lastinv"
 bind i "+use"
 bind o "+reload"
 bind g "+player_ping"
-bind * "buy"
-
-#end change team
-#page_up team chat
-#page_down chat
-#insert scoreboard
+bind ' "drop"
 
 ##MOUSE
 
