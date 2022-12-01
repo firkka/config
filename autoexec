@@ -18,6 +18,7 @@ bind b "+speed; r_cleardecals"
 bind v "+duck"
 bind , "slot3"
 bind . "slot1"
+bind - "slot2"
 bind ' "drop"
 bind y "lastinv"
 bind i "+use"
@@ -25,10 +26,15 @@ bind o "+reload"
 bind g "+player_ping"
 bind * "buy"
 
+#end change team
+#page_up team chat
+#page_down chat
+#insert scoreboard
+
 ##MOUSE
 
 bind mouse1 "+attack"
-bind mouse2 "jump"
+bind mouse2 "+jump"
 bind mouse4 "attack2"
 bind mouse5 +voicerecord
 bind mwheeldown "slot4"
