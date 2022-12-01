@@ -1,3 +1,5 @@
+##KEYBOARD
+
 alias "+jumpthrow" "+jump;-attack";
 alias "-jumpthrow" "-jump";
 bind space "+jumpthrow";
@@ -5,20 +7,6 @@ bind space "+jumpthrow";
 alias +knife "use weapon_knife;"
 alias -knife "lastinv;"
 bind ralt "+knife;"
-
-viewmodel_fov 68;
-viewmodel_offset_x 2.5;
-viewmodel_offset_y 0;
-viewmodel_offset_z -1.5;
-viewmodel_presetpos 3;
-cl_viewmodel_shift_left_amt 1.5;
-cl_viewmodel_shift_right_amt 0.75;
-viewmodel_recoil 0;
-cl_righthand 0;
-cl_bob_lower_amt 5;
-cl_bobamt_lat 0.33;
-cl_bobamt_vert 0.14;
-cl_bobcycle 0.98;
 
 bind h "+moveleft"
 bind u "+forward"
@@ -34,6 +22,11 @@ bind i "+use"
 bind o "+reload"
 bind g "player_ping"
 
+#bind page_up team_chat
+#bind page_down chat
+#bind insert score
+#bind delete change team
+
 ##MOUSE
 
 #bind mouse1 "attack1"
@@ -42,3 +35,19 @@ bind g "player_ping"
 #bind mouse5 "comm"
 #bind wheeldown "rotate nades"
 #bind wheelup "rotate nades"
+
+##MODEL
+
+viewmodel_fov 68;
+viewmodel_offset_x 2.5;
+viewmodel_offset_y 0;
+viewmodel_offset_z -1.5;
+viewmodel_presetpos 3;
+cl_viewmodel_shift_left_amt 1.5;
+cl_viewmodel_shift_right_amt 0.75;
+viewmodel_recoil 0;
+cl_righthand 0;
+cl_bob_lower_amt 5;
+cl_bobamt_lat 0.33;
+cl_bobamt_vert 0.14;
+cl_bobcycle 0.98;
