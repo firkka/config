@@ -26,6 +26,12 @@ bind o "+reload"
 bind g "player_ping"
 bind ' "drop"
 
+#ins scoreboard
+#del show_team_equipment
+#end change_team
+#page_up teamchat
+#page_down chat
+
 ##MOUSE
 
 bind mouse1 "+attack"
