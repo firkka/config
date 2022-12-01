@@ -30,10 +30,10 @@ bind o "+reload"
 bind g "player_ping"
 bind l "+cl_show_team_equipment"
 
-bind INS "+showscores"
-bind END "teammenu"
-bind PGUP "sayteam"
-bind PGDN "say"
+bind ins "+showscores"
+bind end "teammenu"
+bind pgup "say_team"
+bind pgdn "say"
 
 ##MOUSE
 
