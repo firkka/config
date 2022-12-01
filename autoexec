@@ -1,4 +1,4 @@
-##KEYBOARD
+##ALIAS
 
 alias "+jumpthrow" "+jump;-attack";
 alias "-jumpthrow" "-jump";
@@ -7,6 +7,8 @@ bind space "+jumpthrow";
 alias +knife "use weapon_knife;"
 alias -knife "lastinv;"
 bind ralt "+knife;"
+
+##KEYBOARD
 
 bind h "+moveleft"
 bind u "+forward"
@@ -20,21 +22,17 @@ bind ' "drop"
 bind y "lastinv"
 bind i "+use"
 bind o "+reload"
-bind g "player_ping"
-
-#bind page_up team_chat
-#bind page_down chat
-#bind insert score
-#bind delete change team
+bind g "+player_ping"
+bind * "buy"
 
 ##MOUSE
 
-#bind mouse1 "attack1"
-#bind mouse2 "jump"
-#bind mouse4 "attack2"
-#bind mouse5 "comm"
-#bind wheeldown "rotate nades"
-#bind wheelup "rotate nades"
+bind mouse1 "+attack"
+bind mouse2 "jump"
+bind mouse4 "attack2"
+bind mouse5 +voicerecord
+bind mwheeldown "slot4"
+bind mwheelup "slot4"
 
 ##MODEL
 
