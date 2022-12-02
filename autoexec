@@ -1,3 +1,5 @@
+##V1
+
 ##COMMANDS
 
 cl_use_opens_buy_menu 1
@@ -18,10 +20,9 @@ bind h "+moveleft"
 bind u "+forward"
 bind j "+back"
 bind k "+moveright"
-bind b "+speed; r_cleardecals"
 bind v "+duck"
-bind , "slot3"
-bind . "slot1"
+bind , "slot1"
+bind . "+speed; r_cleardecals"
 bind - "slot2"
 bind ' "drop"
 bind y "lastinv"
