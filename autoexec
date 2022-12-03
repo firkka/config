@@ -1,5 +1,3 @@
-##V1
-
 ##COMMANDS
 
 cl_use_opens_buy_menu 1
@@ -22,14 +20,13 @@ bind j "+back"
 bind k "+moveright"
 bind v "+duck"
 bind , "slot1"
-bind . "+speed; r_cleardecals"
+bind . "+speed; r_cleardecals; +cl_show_team_equipment"
 bind - "slot2"
 bind ' "drop"
 bind y "lastinv"
 bind i "+use"
 bind o "+reload"
 bind g "player_ping"
-bind l "+cl_show_team_equipment"
 
 bind ins "+showscores"
 bind end "teammenu"
