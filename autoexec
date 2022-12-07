@@ -18,7 +18,6 @@ bind u "+forward"
 bind j "+back"
 bind h "+moveleft"
 bind k "+moveright"
-
 bind v "+duck"
 bind . "+speed; r_cleardecals;"
 
@@ -28,9 +27,7 @@ bind g "player_ping"
 
 bind y "slot1"
 bind i "slot4"
-
 bind , "slot2"
-bind - "slot2"
 bind 6 "slot5"
 bind 7 "drop"
 
