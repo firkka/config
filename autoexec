@@ -1,6 +1,7 @@
 ##COMMANDS
 
 cl_use_opens_buy_menu 1
++cl_teamid_overhead_mode 0
 
 ##ALIAS
 
@@ -21,7 +22,7 @@ bind k "+moveright"
 bind v "+duck"
 bind . "+speed; r_cleardecals;"
 
-bind l "+use"
+bind l "+use; +cl_teamid_overhead_mode;"
 bind o "+reload"
 bind g "player_ping"
 
