@@ -21,7 +21,7 @@ bind k "+moveright"
 bind v "+duck"
 bind ralt "+speed; r_cleardecals;"
 
-bind 9 ""
+bind 9 "drop"
 
 bind l "+use; +cl_teamid_overhead_mode;"
 bind o "+reload"
@@ -29,9 +29,7 @@ bind g "player_ping"
 
 bind y "slot1"
 bind i "slot4"
-
-bind 6 "slot5"
-bind 7 "drop"
+bind ' "slot5"
 
 bind ins "+showscores"
 bind del "teammenu"
