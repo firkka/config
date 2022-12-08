@@ -1,4 +1,7 @@
 ##BINDS
+unbindall
+
+#REBINDS win = 0, menu = 9
 
 #ALIAS
 
@@ -8,7 +11,7 @@ bind space "+jumpthrow";
 
 alias +knife "use weapon_knife;"
 alias -knife "lastinv;"
-bind ralt "+knife;"
+bind 0 "+knife;"
 
 #KEYBOARD
 
@@ -18,8 +21,7 @@ bind h "+moveleft"
 bind k "+moveright"
 bind v "+duck"
 
-#REBINDS win = 0, menu = 9
-bind 0 "+speed; r_cleardecals;"
+bind ralt "+speed; r_cleardecals;"
 bind 9 ""
 
 bind l "+use; +cl_teamid_overhead_mode;"
