@@ -17,7 +17,10 @@ bind j "+back"
 bind h "+moveleft"
 bind k "+moveright"
 bind v "+duck"
-bind . "+speed; r_cleardecals;"
+
+#REBINDS win = 0, menu = 9
+bind 0 "+speed; r_cleardecals;"
+bind 9 ""
 
 bind l "+use; +cl_teamid_overhead_mode;"
 bind o "+reload"
@@ -25,7 +28,9 @@ bind g "player_ping"
 
 bind y "slot1"
 bind i "slot4"
-bind , "slot2"
+bind . "slot2"
+bind - "slot3"
+
 bind 6 "slot5"
 bind 7 "drop"
 
@@ -63,7 +68,6 @@ cl_autohelp "0"
 cl_showhelp "0"
 cl_righthand 0
 cl_use_opens_buy_menu 1
-
 
 #VIEWMODEL
 
