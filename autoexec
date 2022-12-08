@@ -1,5 +1,4 @@
 ##BINDS
-unbindall
 
 #REBINDS win = 0, menu = 9
 
@@ -20,8 +19,8 @@ bind j "+back"
 bind h "+moveleft"
 bind k "+moveright"
 bind v "+duck"
-
 bind ralt "+speed; r_cleardecals;"
+
 bind 9 ""
 
 bind l "+use; +cl_teamid_overhead_mode;"
@@ -38,8 +37,12 @@ bind ins "+showscores"
 bind del "teammenu"
 bind pgup "say_team"
 bind pgdn "say"
-bind home ""
+bind home "toggle volume 0 .40 .40"
 bind end "toggle volume 0 .05 .40"
+
+bind "F5" "+radialradio"
+bind "F6" "+radialradio2"
+bind "F7" "+radialradio3"
 
 #MOUSE
 
