@@ -28,8 +28,6 @@ bind g "player_ping"
 
 bind y "slot1"
 bind i "slot4"
-bind . "slot2"
-bind - "slot3"
 
 bind 6 "slot5"
 bind 7 "drop"
@@ -47,8 +45,8 @@ bind mouse1 "+attack"
 bind mouse2 "+jump"
 bind mouse4 "+attack2"
 bind mouse5 +voicerecord
-bind mwheeldown ""
-bind mwheelup ""
+bind mwheeldown "slot2"
+bind mwheelup "slot3"
 
 ##CONFIG
 
