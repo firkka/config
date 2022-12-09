@@ -1,6 +1,7 @@
 ##BINDS
+unbindall
 
-#REBINDS win = 0, menu = 9
+#REBINDS 
 
 #ALIAS
 
@@ -10,26 +11,27 @@ bind space "+jumpthrow";
 
 alias +knife "use weapon_knife;"
 alias -knife "lastinv;"
-bind 0 "+knife;"
 
 #KEYBOARD
+
+##REMAPS (altgr = f1, win = f2, menu = f3)
+bind f1 "+speed; r_cleardecals;"
+bind f2 "+knife;"
+bind f3 "player_ping"
 
 bind u "+forward"
 bind j "+back"
 bind h "+moveleft"
 bind k "+moveright"
 bind v "+duck"
-bind ralt "+speed; r_cleardecals;"
-
-bind 9 "drop"
-
-bind l "+use; +cl_teamid_overhead_mode;"
-bind o "+reload"
-bind g "player_ping"
 
 bind y "slot1"
 bind i "slot4"
-bind ' "slot5"
+bind n "slot5"
+bind m "drop"
+bind o "+reload"
+
+bind . "+use; +cl_teamid_overhead_mode;"
 
 bind ins "+showscores"
 bind del "teammenu"
