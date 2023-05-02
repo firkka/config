@@ -5,17 +5,20 @@ unbindall
 
 alias "+jumpthrow" "+jump;-attack";
 alias "-jumpthrow" "-jump";
-bind space "+jumpthrow";
+bind - "+jumpthrow";
 
 alias +knife "use weapon_knife;"
 alias -knife "lastinv;"
 
-#KEYBOARD
+#SENSITIVITY
+sensitivity 1.75
+m_rawinput 0
+m_customaccel 0
 
-# Windows remaps required: (altgr = f1, win = f2, menu = f3)
-bind f1 "+speed; r_cleardecals;"
-bind f2 "+knife;"
-bind f3 "player_ping"
+#MOVE
+
+bind space "+speed; r_cleardecals;"
+bind ralt "+knife;"
 
 bind u "+forward"
 bind j "+back"
@@ -25,13 +28,13 @@ bind v "+duck"
 
 bind y "slot1"
 bind i "slot4"
-bind n "slot5"
-bind m "drop"
+bind 7 "slot5"
+bind 8 "drop"
 bind o "+reload"
 
 bind . "+use; +cl_teamid_overhead_mode;"
 
-bind ins "+showscores"
+bind t "+showscores"
 bind del "teammenu"
 bind pgup "say_team"
 bind pgdn "say"
@@ -41,6 +44,18 @@ bind end "toggle volume 0 .05 .40"
 bind "F5" "+radialradio"
 bind "F6" "+radialradio2"
 bind "F7" "+radialradio3"
+bind "F8" "toggleconsole"
+
+bind r "player_ping"
+
+#CROSSHAIR
+cl_crosshairstyle 5
+cl_crosshaircolor 1
+cl_crosshairairgap -2
+cl_crosshairdot 0
+cl_crosshairalpha 255
+cl_crosshairsize 2
+cl_crosshairthickness 0.7
 
 #MOUSE
 
@@ -49,7 +64,7 @@ bind mouse2 "+jump"
 bind mouse4 "+attack2"
 bind mouse5 +voicerecord
 bind mwheeldown "slot2"
-bind mwheelup "slot3"
+bind mwheelup "slot1"
 
 ##CONFIG
 
@@ -87,3 +102,12 @@ cl_bob_lower_amt 5;
 cl_bobamt_lat 0.1;
 cl_bobamt_vert 0.1;
 cl_bobcycle 0.98;
+
+#RADAR
+
+cl_radar_always_centered "0"
+cl_radar_scale "0.3"
+cl_hud_radar_scale "1.15"
+cl_radar_icon_scale_min "1"
+cl_radar_rotate "1"
+cl_radar_square_with_scoreboard "1"
