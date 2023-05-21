@@ -48,8 +48,9 @@ bind "F6" "+radialradio2"
 bind "F7" "+radialradio3"
 bind "F8" "toggleconsole"
 
-bind r "player_ping"
-
+bind 0 "player_ping"
+bind 9 "use weapon_taser"
+bind - "+lookatweapon;
 
 #CROSSHAIR
 
