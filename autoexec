@@ -1,6 +1,7 @@
 ##BINDS
 unbindall
 
+
 #ALIAS
 
 alias "+jumpthrow" "+jump;-attack";
@@ -10,7 +11,9 @@ bind , "+jumpthrow";
 alias +knife "use weapon_knife;"
 alias -knife "slot2;slot1;"
 
+
 #SENSITIVITY
+
 sensitivity 1.75
 m_rawinput 0
 m_customaccel 0
@@ -52,6 +55,7 @@ bind 0 "player_ping"
 bind 9 "use weapon_taser"
 bind - "+lookatweapon;
 
+
 #CROSSHAIR
 
 cl_crosshairstyle 4
@@ -70,6 +74,7 @@ bind mouse1 "+attack"
 bind mouse4 "+attack2"
 bind mouse2 "+jump"
 bind mouse5 +voicerecord
+
 
 #CONFIG
 
