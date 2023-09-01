@@ -16,7 +16,7 @@ alias "-knife" "lastinv"
 
 #SENSITIVITY
 
-sensitivity 1.75
+sensitivity 2
 m_rawinput 0
 m_customaccel 0
 
