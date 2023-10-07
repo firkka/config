@@ -29,7 +29,12 @@ bind v "+duck"
 
 bind t "slot1"
 bind y "slot2"
-bind i "slot4"
+
+bind , "slot7"
+bind . "slot8"
+bind - "slot6"
+bind p "slot9"
+
 bind f "+showscores"
 bind o "+reload"
 
@@ -37,7 +42,7 @@ bind 7 "slot5"
 bind 8 "drop"
 
 bind - "player_ping"
-bind . "+use; +cl_teamid_overhead_mode;"
+bind i "+use; +cl_teamid_overhead_mode;"
 bind m "+lookatweapon;
 
 bind q "say_team"
@@ -51,15 +56,14 @@ bind z "+radialradio"
 bind x "+radialradio2"
 bind c "+radialradio3"
 bind tab "toggleconsole"
-bind 0 "+spray_menu"
+
 bind 9 "use weapon_taser"
 
 
 #CROSSHAIR
-
+#CSGO-LWMOr-2BuW9-dvPzc-FJ5Cb-oDdRF
 cl_crosshairstyle 4
 cl_crosshaircolor 1
-cl_crosshairairgap -1.5
 cl_crosshairdot 0
 cl_crosshairalpha 255
 cl_crosshairsize 1.5
@@ -79,19 +83,18 @@ bind mwheeldown +jump
 #BOTS
 
 bind mouse5 "bot_kick; mp_roundtime_defuse 60; sv_infinite_ammo 1; give weapon_ak47; ammo_grenade_limit_total 5; noclip;stopsound"
-bind q "sv_rethrow_last_grenade;"
-
+bind 3 "sv_rethrow_last_grenade;"
+bind 0 "+spray_menu"
 
 #CONFIG
+fps_max 0
 
-r_drawtracers_firstperson "0"
-cl_autowepswitch "0"
-hud_showtargetid "1"
-hud_scaling "1"
-net_graph "0"
-fps_max "700"
-cl_autohelp "0"
-cl_showhelp "0"
+r_drawtracers_firstperson 0
+cl_autowepswitch 0
+hud_showtargetid 1
+hud_scaling 1
+cl_autohelp 0
+cl_showhelp 0
 cl_righthand 0
 cl_use_opens_buy_menu 1
 
