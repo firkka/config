@@ -21,11 +21,14 @@ bind "MOUSE_Y" "pitch"
 bind space "+sprint;"
 bind ralt "+knife;"
 
+bind i "+use; +cl_teamid_overhead_mode;"
+
 bind u "+forward"
 bind j "+back"
 bind h "+left"
 bind k "+right"
 bind v "+duck"
+bind o "+reload"
 
 bind t "slot1"
 bind y "slot2"
@@ -33,17 +36,17 @@ bind y "slot2"
 bind , "slot7"
 bind . "slot8"
 bind - "slot6"
-bind p "slot9"
-
-bind f "+showscores"
-bind o "+reload"
+bind rshift "slot10"
+bind p "slot9;"
 
 bind 7 "slot5"
 bind 8 "drop"
+bind 9 "slot11"
+bind 0 "slot12"
 
-bind - "player_ping"
-bind i "+use; +cl_teamid_overhead_mode;"
+bind f "+showscores"
 bind m "+lookatweapon;
+bind n "+spray_menu"
 
 bind q "say_team"
 bind w "say"
@@ -55,13 +58,11 @@ bind s "toggle volume 0 .05 .40"
 bind z "+radialradio"
 bind x "+radialradio2"
 bind c "+radialradio3"
-bind tab "toggleconsole"
 
-bind 9 "use weapon_taser"
+bind tab "toggleconsole"
 
 
 #CROSSHAIR
-#CSGO-LWMOr-2BuW9-dvPzc-FJ5Cb-oDdRF
 cl_crosshairstyle 4
 cl_crosshaircolor 1
 cl_crosshairdot 0
@@ -75,7 +76,10 @@ cl_crosshair_outlinethickness 1.0
 
 bind mouse1 "+attack"
 bind mouse2 "+attack2"
+
 bind mouse4 +voicerecord
+bind mouse5 "player_ping"
+
 bind mwheelup +jump
 bind mwheeldown +jump
 
@@ -84,7 +88,6 @@ bind mwheeldown +jump
 
 bind mouse5 "bot_kick; mp_roundtime_defuse 60; sv_infinite_ammo 1; give weapon_ak47; ammo_grenade_limit_total 5; noclip;stopsound"
 bind 3 "sv_rethrow_last_grenade;"
-bind 0 "+spray_menu"
 
 #CONFIG
 fps_max 0
